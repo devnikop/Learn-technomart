@@ -1,0 +1,22 @@
+.info {
+}
+
+.info__subtitle {
+}
+
+.info__text {
+  margin: 0;
+
+  font-family: var(--font-family-extra);
+}
+
+.info__list {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.info__item {
+}
+
+.info__link {
+}

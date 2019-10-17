@@ -13,9 +13,15 @@
 
 /* main */
 @import "../tile/tile.css";
+@import "../card/card.css";
+@import "../goods/goods.css";
+@import "../manufacturers/manufacturers.css";
+@import "../services/services.css";
+@import "../info/info.css";
 @import "../main/main.css";
 
 /* footer */
+
 
 /* body layout */
 @import "../body/body.css";

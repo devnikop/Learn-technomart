@@ -14,3 +14,17 @@
   border: none;
   background-color: transparent;
 }
+
+.subtitle {
+  margin: 0;
+
+  font-weight: var(--font-regular);
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.subtitle--extra {
+  color: #000000;
+}

@@ -1,0 +1,41 @@
+.services {
+}
+
+.services__title {
+}
+
+.services__text {
+  margin: 0;
+
+  font-family: var(--font-family-extra);
+}
+
+.services__slider-list {
+}
+
+.services__slider-item {
+  font-weight: var(--font-bold);
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.services__list {
+}
+
+.services__item {
+}
+
+.services__subtitle {
+  margin: 0;
+
+  font-weight: var(--font-regular);
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+
+.services__description {
+  margin: 0;
+
+  font-family: var(--font-family-extra);
+}

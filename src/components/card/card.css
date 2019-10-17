@@ -1,0 +1,36 @@
+.card {
+  font-family: var(--font-family-extra);
+}
+
+.card__title {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: var(--font-bold);
+}
+
+.card__price-wrapper {
+}
+
+.card__price {
+  font-weight: var(--font-bold);
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: var(--background-red);
+}
+
+.card__old-price {
+  font-weight: var(--font-bold);
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.card__image {
+}
