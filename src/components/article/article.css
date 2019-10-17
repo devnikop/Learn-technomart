@@ -1,0 +1,13 @@
+.article {
+}
+
+.article h2 {
+  font-weight: var(--font-regular);
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.article p {
+  font-family: var(--font-family-extra);
+}

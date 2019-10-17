@@ -9,7 +9,7 @@
   <body class="body">
     <header class="body__header header">
       <div class="header__top-wrapper">
-        <a class="header__logo logo">
+        <a class="header__logo logo" href="./index.html">
           <img
             class="logo__image"
             width="220"
@@ -48,13 +48,13 @@
       <nav class="header__navigation navigation">
         <ul class="navigation__list list-style-reset">
           <li class="navigation__item">
-            <a class="navigation__link">Главная</a>
+            <a class="navigation__link" href="./index.html">Главная</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Компания</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="./catalog.html">Каталог</a>
+            <a class="navigation__link" href="#">Каталог</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Новости</a>
@@ -77,7 +77,7 @@
       </h1>
       <section class="main__breadcrumbs breadcrumbs">
         <h2 class="visually-hidden">Breadcrumbs</h2>
-        <ul class="breadcrumbs__list">
+        <ul class="breadcrumbs__list list-style-reset">
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="./index.html">
               <span class="visually-hidden">Главная</span>
@@ -89,7 +89,7 @@
         </ul>
       </section>
       <section class="main__filter filter">
-        <h2 class="filter__title">Фильтр:</h2>
+        <h2 class="filter__title subtitle-catalog">Фильтр:</h2>
         <form
           class="filter__form"
           method="POST"
@@ -98,10 +98,16 @@
           <fieldset class="filter__group">
             <legend class="filter__group-title">Цена:</legend>
             <div class="filter__price">
-              <div class="filter__slider slider">
-                <div class="slider__line">
-                  <button class="slider__button" type="button"></button>
-                  <button class="slider__button" type="button"></button>
+              <div class="filter__range range">
+                <div class="range__line">
+                  <button
+                    class="range__button button-reset"
+                    type="button"
+                  ></button>
+                  <button
+                    class="range__button button-reset"
+                    type="button"
+                  ></button>
                 </div>
               </div>
               <label class="visually-hidden" for="price-min">
@@ -126,7 +132,7 @@
           </fieldset>
           <fieldset class="filter__group">
             <legend class="filter__group-title">Производители:</legend>
-            <ul class="filter__list">
+            <ul class="filter__list list-style-reset">
               <li class="filter__item checkbox">
                 <input
                   class="visually-hidden"
@@ -188,7 +194,7 @@
           </fieldset>
           <fieldset class="filter__group">
             <legend class="filter__group-title">Питание:</legend>
-            <ul class="filter__list">
+            <ul class="filter__list list-style-reset">
               <li class="filter__item radio">
                 <input
                   class="visually-hidden"
@@ -216,12 +222,14 @@
               </li>
             </ul>
           </fieldset>
-          <button class="filter__submit" type="submit">Показать</button>
+          <button class="filter__submit button-reset" type="submit">
+            Показать
+          </button>
         </form>
       </section>
       <section class="main__sort sort">
-        <h2 class="sort__title">Сортировка:</h2>
-        <ul class="sort__list">
+        <h2 class="sort__title subtitle-catalog">Сортировка:</h2>
+        <ul class="sort__list list-style-reset">
           <li class="sort__item">
             <a class="sort__link">По цене</a>
           </li>
@@ -232,7 +240,7 @@
             <a class="sort__link" href="#">По функционалу</a>
           </li>
         </ul>
-        <ul class="sort__sublist">
+        <ul class="sort__sublist list-style-reset">
           <li class="sort__subitem">
             <a class="sort__sublink"></a>
           </li>
@@ -243,7 +251,7 @@
       </section>
       <section class="main__cards cards">
         <h2 class="visually-hidden">Список товаров</h2>
-        <ul class="cards__list">
+        <ul class="cards__list list-style-reset">
           <li class="cards__item card">
             <h3 class="card__title">Перфоратор BOSCH BFG 3000</h3>
             <div class="card__price-wrapper">
@@ -383,7 +391,7 @@
       </section>
       <section class="main__pagination pagination">
         <h2 class="visually-hidden">Постраничная навигация товаров</h2>
-        <ul class="pagination__list">
+        <ul class="pagination__list list-style-reset">
           <li class="pagination__item">
             <a class="pagination__link">Предыдущий</a>
           </li>
@@ -415,7 +423,7 @@
     </main>
     <footer class="body__footer footer">
       <div class="footer__top-wrapper">
-        <a class="footer__logo logo">
+        <a class="footer__logo logo" href="./index.html">
           <img
             class="logo__image"
             width="220"

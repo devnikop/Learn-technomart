@@ -21,10 +21,21 @@
   font-weight: var(--font-regular);
   font-size: 30px;
   line-height: 30px;
-  color: #32425c;
+  color: var(--color-title);
   text-transform: uppercase;
 }
 
 .subtitle--extra {
   color: #000000;
+}
+
+.subtitle-catalog {
+  margin: 0;
+
+  font-family: var(--font-family-main);
+  font-weight: var(--font-regular);
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-text);
+  text-transform: uppercase;
 }

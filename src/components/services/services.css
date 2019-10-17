@@ -31,7 +31,7 @@
   font-weight: var(--font-regular);
   font-size: 36px;
   line-height: 36px;
-  color: #32425c;
+  color: var(--color-title);
 }
 
 .services__description {

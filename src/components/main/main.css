@@ -24,3 +24,31 @@
 
 .main__info {
 }
+
+.main__title {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--color-title);
+
+  background-color: #f2f6f8;
+}
+
+.main__breadcrumbs {
+}
+
+.main__filter {
+}
+
+.main__sort {
+}
+
+.main__cards {
+}
+
+.main__pagination {
+}
+
+.main__article {
+}

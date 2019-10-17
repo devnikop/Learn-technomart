@@ -18,6 +18,15 @@
 @import "../manufacturers/manufacturers.css";
 @import "../services/services.css";
 @import "../info/info.css";
+@import "../breadcrumbs/breadcrumbs.css";
+@import "../range/range.css";
+@import "../checkbox/checkbox.css";
+@import "../radio/radio.css";
+@import "../filter/filter.css";
+@import "../sort/sort.css";
+@import "../cards/cards.css";
+@import "../pagination/pagination.css";
+@import "../article/article.css";
 @import "../main/main.css";
 
 /* footer */

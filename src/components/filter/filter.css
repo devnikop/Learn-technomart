@@ -1,0 +1,42 @@
+.filter {
+}
+
+.filter__title {
+}
+
+.filter__form {
+  font-family: var(--font-family-extra);
+}
+
+.filter__group {
+}
+
+.filter__group-title {
+  font-weight: var(--font-bold);
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter__price {
+}
+
+.filter__range {
+}
+
+.filter__input {
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.filter__list {
+}
+
+.filter__item {
+}
+
+.filter__submit {
+  font-size: 13px;
+  line-height: 18px;
+}

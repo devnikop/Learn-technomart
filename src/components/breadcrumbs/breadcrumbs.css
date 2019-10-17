@@ -1,0 +1,16 @@
+.breadcrumbs {
+}
+
+.breadcrumbs__list {
+}
+
+.breadcrumbs__item {
+}
+
+.breadcrumbs__link {
+  font-family: var(--font-family-extra);
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
