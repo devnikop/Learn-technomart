@@ -21,7 +21,8 @@
 @import "../main/main.css";
 
 /* footer */
-
+@import "../socials/socials.css";
+@import "../footer/footer.css";
 
 /* body layout */
 @import "../body/body.css";

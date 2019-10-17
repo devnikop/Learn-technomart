@@ -1,2 +1,48 @@
 .footer {
+  background-color: #32425c;
+}
+
+.footer__logo {
+}
+
+.footer__info-wrapper {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-text-white);
+}
+
+.footer__address {
+  margin: 0;
+}
+
+.footer__phone {
+  color: inherit;
+}
+
+.footer__navigation-list {
+}
+
+.footer__navigation-item {
+}
+
+.footer__navigation-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-text-white);
+}
+
+.footer__navigation-link--tan {
+  color: #ffd180;
+}
+
+.footer__bottom-wrapper {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--color-text-white);
+
+  background-color: #293449;
+}
+
+.footer__link {
+  color: #ffd180;
 }
