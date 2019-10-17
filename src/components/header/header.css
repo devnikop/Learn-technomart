@@ -1,0 +1,64 @@
+.header {
+}
+
+.header__top-wrapper {
+  background-color: #293449;
+}
+
+.header__logo {
+}
+
+.header__form {
+}
+
+.header__search {
+  padding: 0;
+
+  border: none;
+  background-color: inherit;
+}
+
+.header__search::placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.header__item {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.header__middle-wrapper {
+}
+
+.header__text {
+  margin: 0;
+
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.header__info-wrapper {
+}
+
+.header__phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.header__address {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header__user-list {
+}
+
+.header__navigation {
+}

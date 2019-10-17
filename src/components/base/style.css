@@ -1,5 +1,9 @@
 @import "./normalize.css";
 @import "./font.css";
 @import "./base.css";
+@import "./mixins.css";
 
+@import "../user-list/user-list.css";
+@import "../navigation/navigation.css";
+@import "../header/header.css";
 @import "../body/body.css";

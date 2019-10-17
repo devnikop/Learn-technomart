@@ -1,0 +1,13 @@
+.navigation {
+}
+
+.navigation__list {
+  background-color: #32425c;
+}
+
+.navigation__link {
+  font-size: 17px;
+  line-height: 17px;
+
+  color: #ffffff;
+}

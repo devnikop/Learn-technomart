@@ -24,6 +24,7 @@
   src: local("Cuprum Regular"), local("Cuprum-Regular"),
     url("./fonts/cuprum-regular.woff2") format("woff2");
 }
+
 @font-face {
   font-display: swap;
   font-family: "Cuprum";
@@ -32,6 +33,7 @@
   src: local("Cuprum Italic"), local("Cuprum-Italic"),
     url("./fonts/cuprum-italic.woff2") format("woff2");
 }
+
 @font-face {
   font-display: swap;
   font-family: "Cuprum";

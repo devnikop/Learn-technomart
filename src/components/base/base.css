@@ -1,8 +1,8 @@
 :root {
   --desktop: 1200px;
 
-  /* --color-text: #000000;
-  --color-text-white: #ffffff;
+  --color-text: #000000;
+  /* --color-text-white: #ffffff;
   --color-background: #eeeeee;
   --color-background-white: #ffffff; */
 
@@ -11,8 +11,8 @@
 
   /* --standard-radius: 2px; */
 
-  /* --font-size-main: 16px;
-  --line-height-main: 24px; */
+  --font-size-main: 13px;
+  --line-height-main: 24px;
 
   --font-family-main: "Cuprum", "Arial", sans-serif;
   --font-family-extra: "PT Sans", "Arial", sans-serif;
