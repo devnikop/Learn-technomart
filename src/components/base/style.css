@@ -3,7 +3,19 @@
 @import "./base.css";
 @import "./mixins.css";
 
+/* components */
+@import "../button/button.css";
+
+/* header */
 @import "../user-list/user-list.css";
 @import "../navigation/navigation.css";
 @import "../header/header.css";
+
+/* main */
+@import "../tile/tile.css";
+@import "../main/main.css";
+
+/* footer */
+
+/* body layout */
 @import "../body/body.css";

@@ -1,0 +1,25 @@
+.slider {
+}
+
+.slider__list {
+}
+
+.slider__item {
+}
+
+.slider__subtitle {
+  font-weight: var(--font-bold);
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--color-text-white);
+}
+
+.slider__text {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-text-white);
+}
+
+.slider__link {
+
+}

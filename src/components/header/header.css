@@ -21,13 +21,13 @@
 .header__search::placeholder {
   font-size: 17px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--color-text-white);
 }
 
 .header__item {
   font-size: 17px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--color-text-white);
 }
 
 .header__middle-wrapper {

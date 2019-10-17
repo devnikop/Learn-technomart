@@ -72,52 +72,56 @@
       </nav>
     </header>
     <main class="body__main main">
-      <h1 class="main__title">
+      <h1 class="visually-hidden">
         Интернет-магазин строительных материалов и инструментов для ремонта
       </h1>
-      <div class="main__something">
-        <ul>
-          <li>
-            <h2>Материалы</h2>
-            <a href="#">На любой вкус</a>
+      <div class="main__tiles">
+        <ul class="main__list list-style-reset">
+          <li class="main__item tile">
+            <h2 class="tile__title">Материалы</h2>
+            <a class="tile__link button" href="#">На любой вкус</a>
           </li>
-          <li>
-            <h2>Инструмент</h2>
-            <a href="#">На все случаи</a>
+          <li class="main__item tile">
+            <h2 class="tile__title">Инструмент</h2>
+            <a class="tile__link button" href="#">На все случаи</a>
           </li>
-          <li>
-            <h2>Техника</h2>
-            <a href="#">Для стройки</a>
+          <li class="main__item tile">
+            <h2 class="tile__title">Техника</h2>
+            <a class="tile__link button" href="#">Для стройки</a>
           </li>
         </ul>
         <section class="main__slider slider">
           <h2 class="visually-hidden">Слайдер</h2>
-          <ul class="slider__list">
+          <ul class="slider__list list-style-reset">
             <li class="slider__item">
               <h3 class="slider__subtitle">Дрели</h3>
               <p class="slider__text">Соседям на радость!</p>
-              <a class="slider__link" href="#">Открыть каталог</a>
+              <a class="slider__link button" href="#">
+                Открыть каталог
+              </a>
             </li>
             <li class="slider__item">
               <h3 class="slider__subtitle">Перфораторы</h3>
               <p class="slider__text">Настоящие мужские игрушки</p>
-              <a class="slider__link" href="./catalog.html">Открыть каталог</a>
+              <a class="slider__link button" href="./catalog.html">
+                Открыть каталог
+              </a>
             </li>
           </ul>
-          <button class="slider__button">
+          <button class="slider__button button-reset">
             <span class="visually-hidden">Предыдущий</span>
           </button>
-          <button class="slider__button">
+          <button class="slider__button button-reset">
             <span class="visually-hidden">Следующий</span>
           </button>
         </section>
-        <div>
-          <h2>Скидки 50%</h2>
-          <a href="#">На 350 товаров</a>
+        <div class="tile">
+          <h2 class="tile__title">Скидки 50%</h2>
+          <a class="tile__link button" href="#">На 350 товаров</a>
         </div>
-        <div>
-          <h2>Доставка</h2>
-          <a href="#">Бесплатно</a>
+        <div class="tile">
+          <h2 class="tile__title">Доставка</h2>
+          <a class="tile__link button" href="#">Бесплатно</a>
         </div>
       </div>
       <section class="main__goods goods">

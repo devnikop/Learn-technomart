@@ -1,0 +1,14 @@
+.tile {
+  background-color: #ffbf47;
+}
+
+.tile__title {
+  font-weight: var(--font-bold);
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--color-text-white);
+}
+
+.tile__link {
+  background-color: rgb(0 0 0 / 10%);
+}

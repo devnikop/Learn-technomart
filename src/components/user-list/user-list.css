@@ -4,5 +4,5 @@
 .user-list__link {
   font-size: 21px;
   line-height: 21px;
-  color: #000000;
+  color: var(--color-text);
 }

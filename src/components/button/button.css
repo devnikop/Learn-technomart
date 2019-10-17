@@ -1,0 +1,8 @@
+.button {
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-text-white);
+
+  text-transform: uppercase;
+  background-color: var(--background-red);
+}
