@@ -9,7 +9,7 @@
   <body class="body">
     <header class="body__header header">
       <div class="header__top-wrapper">
-        <a class="header__logo logo" href="./index.html">
+        <a class="header__logo logo">
           <img
             class="logo__image"
             width="220"
@@ -18,11 +18,11 @@
           />
         </a>
         <form class="header__form">
-          <input class="header__search" type="search" />
+          <input class="header__search" type="search" placeholder="Поиск:" />
         </form>
-        <a class="header__bookmarks">Закладки: 0</a>
-        <a class="header__basket">Корзина: 0</a>
-        <a class="header__checkout">Оформить заказ</a>
+        <a class="header__item header__bookmarks">Закладки: 0</a>
+        <a class="header__item header__basket">Корзина: 0</a>
+        <a class="header__item header__checkout">Оформить заказ</a>
       </div>
       <div class="header__middle-wrapper">
         <p class="header__text">
@@ -36,7 +36,7 @@
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
           </p>
         </div>
-        <ul class="header__user-list user-list">
+        <ul class="header__user-list user-list list-style-reset">
           <li class="user-list__item">
             <a class="user-list__link" href="#">Войти</a>
           </li>
@@ -46,9 +46,9 @@
         </ul>
       </div>
       <nav class="header__navigation navigation">
-        <ul class="navigation__list">
+        <ul class="navigation__list list-style-reset">
           <li class="navigation__item">
-            <a class="navigation__link" href="./index.html">Главная</a>
+            <a class="navigation__link">Главная</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Компания</a>
@@ -414,8 +414,8 @@
       </article>
     </main>
     <footer class="body__footer footer">
-      <div>
-        <a class="footer__logo logo" href="./index.html">
+      <div class="footer__top-wrapper">
+        <a class="footer__logo logo">
           <img
             class="logo__image"
             width="220"
@@ -431,9 +431,9 @@
             >+7 (812) 555-05-55</a
           >
         </div>
-        <ul class="footer__navigation-list">
+        <ul class="footer__navigation-list list-style-reset">
           <li class="footer__navigation-item">
-            <a class="navigation__link" href="#">Компания</a>
+            <a class="footer__navigation-link" href="#">Компания</a>
           </li>
           <li class="footer__navigation-item">
             <a class="footer__navigation-link" href="#">Новости</a>
@@ -448,24 +448,44 @@
             <a class="footer__navigation-link" href="#">Контакты</a>
           </li>
           <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Материалы</a>
+            <a
+              class="footer__navigation-link footer__navigation-link--tan"
+              href="#"
+            >
+              Материалы
+            </a>
           </li>
           <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Техника</a>
+            <a
+              class="footer__navigation-link footer__navigation-link--tan"
+              href="#"
+            >
+              Техника
+            </a>
           </li>
           <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Инструмент</a>
+            <a
+              class="footer__navigation-link footer__navigation-link--tan"
+              href="#"
+            >
+              Инструмент
+            </a>
           </li>
           <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Спецпредложения</a>
+            <a
+              class="footer__navigation-link footer__navigation-link--tan"
+              href="#"
+            >
+              Спецпредложения
+            </a>
           </li>
         </ul>
       </div>
-      <div>
+      <div class="footer__bottom-wrapper">
         <p class="footer__text">
           © 2010–2017 Компания «Техномарт» Все права защищены
         </p>
-        <ul class="footer__socials socials">
+        <ul class="footer__socials socials list-style-reset">
           <li class="socials__item">
             <a class="socials__link" href="#">
               <span class="visually-hidden">Вконтакте</span>
@@ -485,11 +505,19 @@
         <div>
           <p>
             Обратная связь:
-            <span>mail@htmlacademy.ru</span>
+            <a class="footer__link" href="mailto:mail@htmlacademy.ru">
+              mail@htmlacademy.ru
+            </a>
           </p>
           <p>
             Разработано —
-            <span>htmlacademy.ru</span>
+            <a
+              class="footer__link"
+              href="https://htmlacademy.ru"
+              target="blank"
+            >
+              htmlacademy.ru
+            </a>
           </p>
         </div>
       </div>
