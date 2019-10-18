@@ -1,8 +1,40 @@
 .tile {
+  padding: 25px 140px 20px 20px;
+
   background-color: #ffbf47;
+  background-repeat: no-repeat;
+  background-position: center right 30px;
+}
+
+.tile--materials {
+  background-color: #ffbf47;
+  background-image: url("./assets/icon-materials.svg");
+}
+
+.tile--tool {
+  background-color: #3bbce3;
+  background-image: url("./assets/icon-tool.svg");
+}
+
+.tile--technics {
+  background-color: #dc91d8;
+  background-image: url("./assets/icon-technics.svg");
+}
+
+.tile--discount {
+  background-color: #8ed78f;
+  background-image: url("./assets/icon-discount.svg");
+}
+
+.tile--delivery {
+  background-color: #ffbf47;
+  background-image: url("./assets/icon-delivery.svg");
 }
 
 .tile__title {
+  margin: 0;
+  margin-bottom: 15px;
+
   font-weight: var(--font-bold);
   font-size: 24px;
   line-height: 30px;
@@ -10,5 +42,8 @@
 }
 
 .tile__link {
+  display: block;
+  margin-left: 2px;
+
   background-color: rgb(0 0 0 / 10%);
 }

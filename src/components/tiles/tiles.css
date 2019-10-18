@@ -1,0 +1,19 @@
+.tiles {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.tiles__list {
+  display: contents;
+}
+
+.tiles__item {
+}
+
+.tiles__slider {
+  grid-row: 2 / 4;
+  grid-column: 1 / 3;
+}

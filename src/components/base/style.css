@@ -14,6 +14,8 @@
 
 /* main */
 @import "../tile/tile.css";
+@import "../slider/slider.css";
+@import "../tiles/tiles.css";
 @import "../card/card.css";
 @import "../goods/goods.css";
 @import "../manufacturers/manufacturers.css";

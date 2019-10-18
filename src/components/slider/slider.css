@@ -1,13 +1,35 @@
 .slider {
+  background-color: #86766b;
 }
 
 .slider__list {
+  position: relative;
+
+  height: 100%;
 }
 
 .slider__item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider__item--drill {
+  background-image: url("./assets/slider_drill.jpg");
+}
+
+.slider__item--hammer-drill {
+  background-image: url("./assets/slider_hammer-drill.jpg");
 }
 
 .slider__subtitle {
+  margin: 0;
+
   font-weight: var(--font-bold);
   font-size: 36px;
   line-height: 36px;
@@ -15,11 +37,12 @@
 }
 
 .slider__text {
+  margin: 0;
+
   font-size: 18px;
   line-height: 24px;
   color: var(--color-text-white);
 }
 
 .slider__link {
-
 }
