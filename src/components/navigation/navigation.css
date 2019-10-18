@@ -2,12 +2,31 @@
 }
 
 .navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-bottom: 5px solid #293449;
   background-color: #32425c;
 }
 
+.navigation__item {
+  display: contents;
+}
+
 .navigation__link {
+  flex-grow: 1;
+  padding: 20px 30px 22px;
+
   font-size: 17px;
   line-height: 17px;
 
   color: var(--color-text-white);
+}
+
+.navigation__item:first-of-type .navigation__link {
+  padding-left: 50px;
+}
+
+.navigation__item:last-of-type .navigation__link {
+  padding-right: 50px;
 }

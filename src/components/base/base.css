@@ -1,11 +1,10 @@
 :root {
-  --desktop: 1200px;
+  --desktop: 960px;
 
   --color-text: #000000;
   --color-text-white: #ffffff;
   --color-title: #32425c;
   --background-red: #ee3643;
-  /* --color-background-white: #ffffff; */
 
   --font-regular: 400;
   --font-bold: 700;

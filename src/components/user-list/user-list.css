@@ -1,8 +1,33 @@
 .user-list {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .user-list__link {
+  display: flex;
+  padding: 14px 24px 12px;
+
   font-size: 21px;
   line-height: 21px;
   color: var(--color-text);
+
+  background-color: #ffffff;
+}
+
+.user-list__link--sign-in {
+  margin-right: 10px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.user-list__link--sign-in::before {
+  display: block;
+
+  width: 20px;
+  height: 17px;
+  margin-right: 14px;
+
+  background-image: url("./assets/icon-login.svg");
+
+  content: "";
 }

@@ -9,24 +9,34 @@
   <body class="body">
     <header class="body__header header">
       <div class="header__top-wrapper">
-        <a class="header__logo logo">
-          <img
-            class="logo__image"
-            width="220"
-            height="47"
-            src="../src/components/base/images/logo.svg"
-          />
-        </a>
-        <form class="header__form">
-          <input class="header__search" type="search" placeholder="Поиск:" />
-        </form>
-        <a class="header__item header__bookmarks">Закладки: 0</a>
-        <a class="header__item header__basket">Корзина: 0</a>
-        <a class="header__item header__checkout">Оформить заказ</a>
+        <div class="header__top-inner desktop-center">
+          <a class="header__logo logo">
+            <img
+              class="logo__image"
+              width="220"
+              height="42"
+              src="../src/components/base/images/logo.svg"
+            />
+          </a>
+          <form class="header__form">
+            <input
+              class="header__search"
+              id="search-id"
+              type="search"
+              placeholder="Поиск:"
+            />
+            <label class="header__label" for="search-id"></label>
+          </form>
+          <a class="header__item header__item--bookmarks">Закладки: 0</a>
+          <a class="header__item header__item--basket">Корзина: 0</a>
+          <a class="header__item header__item--checkout">Оформить заказ</a>
+        </div>
       </div>
-      <div class="header__middle-wrapper">
+      <div class="header__middle-wrapper desktop-center">
         <p class="header__text">
-          Интернет-магазин строительных материалов и инструментов для ремонта
+          Интернет-магазин<br />
+          строительных материалов<br />
+          и инструментов для ремонта
         </p>
         <div class="header__info-wrapper">
           <a class="header__phone" href="tel:+7(812)555-05-55"
@@ -38,14 +48,16 @@
         </div>
         <ul class="header__user-list user-list list-style-reset">
           <li class="user-list__item">
-            <a class="user-list__link" href="#">Войти</a>
+            <a class="user-list__link user-list__link--sign-in" href="#">
+              Войти
+            </a>
           </li>
           <li class="user-list__item">
             <a class="user-list__link" href="#">Регистрация</a>
           </li>
         </ul>
       </div>
-      <nav class="header__navigation navigation">
+      <nav class="header__navigation desktop-center navigation">
         <ul class="navigation__list list-style-reset">
           <li class="navigation__item">
             <a class="navigation__link">Главная</a>

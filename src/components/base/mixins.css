@@ -1,3 +1,9 @@
+.desktop-center {
+  width: var(--desktop);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .list-style-reset {
   margin: 0;
   padding: 0;
