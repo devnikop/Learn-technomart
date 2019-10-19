@@ -1,11 +1,20 @@
 .services {
+  padding-top: 65px;
+
+  background-color: #f4f8f9;
+}
+
+.services__wrapper {
 }
 
 .services__title {
+  margin-bottom: 30px;
 }
 
 .services__text {
+  width: 400px;
   margin: 0;
+  margin-bottom: 20px;
 
   font-family: var(--font-family-extra);
 }

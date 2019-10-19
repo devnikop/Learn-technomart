@@ -1,11 +1,25 @@
 .goods {
 }
 
+.goods__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 25px;
+
+  background-color: #f9f5f0;
+}
+
 .goods__title {
 }
 
 .goods__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
 }
 
 .goods__item {
+  margin-left: 20px;
 }

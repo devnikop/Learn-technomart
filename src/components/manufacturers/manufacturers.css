@@ -1,6 +1,16 @@
 .manufacturers {
 }
 
+.manufacturers__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 25px;
+
+  background-color: #f9f5f0;
+}
+
 .manufacturers__title {
 }
 
@@ -8,7 +18,21 @@
 }
 
 .manufacturers__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .manufacturers__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 145px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+
+  border: 1px solid #eaeaea;
 }

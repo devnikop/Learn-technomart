@@ -1,11 +1,16 @@
 .info {
+  display: grid;
+  grid-template-columns: minmax(540px, auto) 300px;
+  column-gap: 20px;
 }
 
 .info__subtitle {
+  margin-bottom: 30px;
 }
 
 .info__text {
   margin: 0;
+  margin-bottom: 30px;
 
   font-family: var(--font-family-extra);
 }

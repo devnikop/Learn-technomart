@@ -2,15 +2,19 @@
 }
 
 .main__tiles {
+  margin-bottom: 50px;
 }
 
 .main__goods {
+  margin-bottom: 20px;
 }
 
 .main__manufacturers {
+  margin-bottom: 85px;
 }
 
 .main__services {
+  margin-bottom: 80px;
 }
 
 .main__info {

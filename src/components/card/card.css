@@ -1,4 +1,9 @@
 .card {
+  width: 220px;
+  box-sizing: border-box;
+
+  border: 1px solid #eaeaea;
+
   font-family: var(--font-family-extra);
 }
 
