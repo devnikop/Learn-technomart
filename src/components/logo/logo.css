@@ -10,10 +10,13 @@
 
 .logo__image:hover,
 .logo__image:focus {
-  color: #ca2c37 !important;
+  --logo-background-color: #ca2c37;
+
   box-shadow: 0 5px 0 0 #9a212a;
 }
+
 .logo__image:active {
-  color: #ba2732 !important;
+  --logo-background-color: #ba2732;
+
   box-shadow: 0 5px 0 0 #8e1e26;
 }
