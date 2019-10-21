@@ -7,3 +7,13 @@
 
   box-shadow: 0 5px 0 0 #b52933;
 }
+
+.logo__image:hover,
+.logo__image:focus {
+  color: #ca2c37 !important;
+  box-shadow: 0 5px 0 0 #9a212a;
+}
+.logo__image:active {
+  color: #ba2732 !important;
+  box-shadow: 0 5px 0 0 #8e1e26;
+}
