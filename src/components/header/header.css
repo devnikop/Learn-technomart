@@ -53,9 +53,9 @@
 
   transform: translate(0, -50%);
 
-  background-image: url("./assets/icon-search.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: var(--color-text-white);
+  -webkit-mask-image: url(./assets/icon-search.svg#search);
+  mask-image: url(./assets/icon-search.svg#search);
 
   filter: opacity(30%);
 
@@ -70,7 +70,7 @@
 .header__search {
   z-index: 1;
 
-  min-width: 200px;
+  flex-grow: 1;
   padding: 0;
 
   font-size: 17px;
@@ -87,6 +87,11 @@
 
 .header__search:focus + .header__label {
   background-color: #ffffff;
+}
+
+.header__search:focus + .header__label::before {
+  background-color: #ba2732;
+  filter: opacity(100%);
 }
 
 .header__search::placeholder {
