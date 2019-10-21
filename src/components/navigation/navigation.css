@@ -33,6 +33,8 @@
 }
 
 .navigation__link:active {
+  color: rgb(255 255 255 / 50%);
+
   background-color: #1d2739;
   border-bottom: 5px solid #1d2739;
 }
