@@ -5,7 +5,6 @@
   display: flex;
   flex-wrap: wrap;
 
-  border-bottom: 5px solid #293449;
   background-color: #32425c;
 }
 
@@ -14,13 +13,28 @@
 }
 
 .navigation__link {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px 19px;
   flex-grow: 1;
-  padding: 20px 30px 22px;
 
   font-size: 17px;
   line-height: 17px;
 
   color: var(--color-text-white);
+
+  background-color: #32425c;
+  border-bottom: 5px solid #293449;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  background-color: #293449;
+}
+
+.navigation__link:active {
+  background-color: #1d2739;
+  border-bottom: 5px solid #1d2739;
 }
 
 .navigation__item:first-of-type .navigation__link {
