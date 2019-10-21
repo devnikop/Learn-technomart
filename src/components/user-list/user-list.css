@@ -5,6 +5,7 @@
 
 .user-list__link {
   display: flex;
+  align-items: center;
   padding: 14px 24px 12px;
 
   font-size: 21px;
@@ -12,6 +13,15 @@
   color: var(--color-text);
 
   background-color: #ffffff;
+}
+
+.user-list__link:hover,
+.user-list__link:focus {
+  color: #ee3643;
+}
+
+.user-list__link:active {
+  color: rgb(0 0 0 / 30%);
 }
 
 .user-list__link--sign-in {
@@ -27,7 +37,18 @@
   height: 17px;
   margin-right: 14px;
 
-  background-image: url("./assets/icon-login.svg");
+  background-color: #c5c5c5;
+  -webkit-mask-image: url("./assets/icon-login.svg");
+  mask-image: url("./assets/icon-login.svg");
 
   content: "";
+}
+
+.user-list__link--sign-in:hover::before,
+.user-list__link--sign-in:focus::before {
+  background-color: #32425c;
+}
+
+.user-list__link--sign-in:active::before {
+  background-color: #c5c5c5;
 }

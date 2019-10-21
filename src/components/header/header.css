@@ -54,8 +54,8 @@
   transform: translate(0, -50%);
 
   background-color: var(--color-text-white);
-  -webkit-mask-image: url(./assets/icon-search.svg#search);
-  mask-image: url(./assets/icon-search.svg#search);
+  -webkit-mask-image: url(./assets/icon-search.svg);
+  mask-image: url(./assets/icon-search.svg);
 
   filter: opacity(30%);
 
