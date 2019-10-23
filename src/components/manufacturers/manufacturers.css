@@ -15,6 +15,7 @@
 }
 
 .manufacturers__link {
+  min-width: 250px;
 }
 
 .manufacturers__list {
