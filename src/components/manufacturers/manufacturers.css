@@ -25,7 +25,7 @@
   margin-left: -20px;
 }
 
-.manufacturers__item {
+.manufacturers__link-company {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,4 +36,14 @@
   box-sizing: border-box;
 
   border: 1px solid #eaeaea;
+}
+
+.manufacturers__link-company:hover,
+.manufacturers__link-company:focus {
+  box-shadow: 0 10px 25px 0 rgb(41 52 73 / 50%);
+}
+
+.manufacturers__link-company:active {
+  filter: opacity(30%);
+  box-shadow: 0 4px 10px 0 rgb(41 52 73 / 50%);
 }
