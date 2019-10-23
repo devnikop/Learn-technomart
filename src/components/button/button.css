@@ -1,7 +1,12 @@
 .button {
+  padding: 10px 15px;
+
+  font: inherit;
   font-size: 14px;
   line-height: 18px;
   color: var(--color-text-white);
+
+  text-align: center;
 
   text-transform: uppercase;
   background-color: var(--background-red);
