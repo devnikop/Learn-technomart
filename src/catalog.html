@@ -7,27 +7,63 @@
     <link rel="stylesheet" href="../src/components/base/style.css" />
   </head>
   <body class="body">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="logo" viewBox="0 0 220 42">
+        <path
+          fill="var(--logo-background-color, #ee3643)"
+          d="M0 0h220.76v47H0z"
+        />
+        <g fill="#ffffff">
+          <path
+            d="M52.52 15.18h-4.93V13.4h12v1.78h-4.96v14.4h-2.11zM69.63 22h-6.29v5.84h7v1.75h-9.1V13.4H70v1.75h-6.66v5.11h6.29zM82 29.58L79.89 26c-.84-1.37-1.37-2.25-1.87-3.19-.46.94-.91 1.8-1.75 3.21l-2 3.56h-2.4l4.95-8.19-4.76-8h2.43l2.14 3.79c.59 1.06 1.05 1.87 1.48 2.74h.07c.46-1 .87-1.71 1.47-2.74l2.21-3.79h2.4l-4.92 7.87 5 8.31zM88.45 13.4v6.77h7.82V13.4h2.12v16.18h-2.12V22h-7.82v7.59h-2.09V13.4zM115.48 21.32c0 5.57-3.38 8.52-7.51 8.52s-7.27-3.31-7.27-8.21c0-5.13 3.19-8.49 7.51-8.49s7.27 3.38 7.27 8.18zm-12.55.26c0 3.46 1.87 6.56 5.16 6.56s5.18-3.05 5.18-6.72c0-3.22-1.68-6.58-5.16-6.58s-5.18 3.16-5.18 6.74zM131.3 22.47c-.12-2.25-.26-5-.24-7H131c-.56 1.89-1.23 3.91-2 6.14l-2.86 7.85h-1.58l-2.62-7.7c-.77-2.28-1.42-4.37-1.87-6.29 0 2-.17 4.73-.31 7.15l-.43 6.94h-2l1.13-16.18H121l2.76 7.82c.67 2 1.22 3.77 1.63 5.45h.07c.41-1.63 1-3.41 1.7-5.45l2.89-7.82h2.66l1 16.18h-2zM139.38 24.49l-1.68 5.09h-2.16L141 13.4h2.52l5.52 16.18h-2.23l-1.73-5.09zm5.31-1.63l-1.59-4.66c-.36-1.06-.6-2-.84-2.95-.24 1-.51 1.94-.82 2.93l-1.58 4.68zM151.05 13.59a24.06 24.06 0 014-.31 6.67 6.67 0 014.54 1.34A4.35 4.35 0 01161 18a4.82 4.82 0 01-1.24 3.46 6.75 6.75 0 01-5 1.77 7.22 7.22 0 01-1.68-.14v6.48h-2.09zm2.09 7.8a7 7 0 001.73.17c2.52 0 4.06-1.22 4.06-3.46s-1.52-3.16-3.82-3.16a9.32 9.32 0 00-2 .16zM166.87 15.18H162V13.4h12v1.78h-5v14.4h-2.11z"
+          />
+        </g>
+      </symbol>
+      <symbol id="logo--footer" viewBox="0 0 220 60">
+        <path
+          fill="var(--logo-background-color,#ee3643)"
+          d="M.34 0H221.1v60H.34z"
+        />
+        <path
+          fill="#fff"
+          fill-rule="evenodd"
+          d="M173.54 20.81v18.9h-2.7v-18.9h-4.8v-2.1h12.3v2.1h-4.8zm-11.45 12.04c-.83.47-1.91.7-3.25.7-.44 0-.95-.03-1.53-.09s-1.07-.13-1.47-.21v6.45h-2.7V19c1.34-.4 2.94-.6 4.8-.6 1.64 0 2.93.23 3.88.69.95.46 1.64 1.23 2.07 2.31s.64 2.58.64 4.5c0 1.94-.2 3.47-.6 4.57-.39 1.12-1.01 1.91-1.84 2.38zm-.66-10.3c-.27-.8-.68-1.36-1.24-1.69s-1.31-.5-2.25-.5h-2.1v11.1h2.1c.94 0 1.69-.17 2.25-.5s.98-.89 1.24-1.69c.27-.8.4-1.92.4-3.36.01-1.44-.13-2.56-.4-3.36zm-15.04 11.76h-6l-1.35 5.4h-2.7l5.1-21h3.9l5.1 21h-2.7l-1.35-5.4zm-2.94-12.6h-.12l-2.49 10.5h5.1l-2.49-10.5zm-12.96 2.4h-.15l-4.35 12.9h-2.7l-4.35-12.9h-.15l-.9 15.6h-2.7l1.2-21h3.3l4.89 14.4h.12l4.89-14.4h3.3l1.2 21h-2.7l-.9-15.6zm-21.36 14.92c-.94.65-2.12.98-3.54.98s-2.6-.33-3.54-.98c-.94-.65-1.66-1.77-2.16-3.36s-.75-3.74-.75-6.46.25-4.88.75-6.47 1.22-2.71 2.16-3.36 2.12-.98 3.54-.98 2.6.33 3.54.98 1.66 1.77 2.16 3.36.75 3.74.75 6.47-.25 4.87-.75 6.46-1.22 2.71-2.16 3.36zm-3.54-18.82c-2.5 0-3.75 3-3.75 9s1.25 9 3.75 9 3.75-3 3.75-9-1.25-9-3.75-9zm-12.75 9.9h-6.3v9.6h-2.7v-21h2.7v9.3h6.3v-9.3h2.7v21h-2.7v-9.6zm-14.25 9.6l-3.75-9-3.75 9h-2.7l4.5-10.8-4.05-10.2h2.7l3.3 8.4 3.3-8.4h2.7l-4.05 10.2 4.5 10.8h-2.7zm-22.05-21h10.2v2.1h-7.5v6.9h6.6v2.1h-6.6v7.8h7.5v2.1h-10.2v-21zm-7.2 21h-2.7v-18.9h-4.8v-2.1h12.3v2.1h-4.8v18.9z"
+          clip-rule="evenodd"
+        />
+      </symbol>
+    </svg>
     <header class="body__header header">
       <div class="header__top-wrapper">
-        <a class="header__logo logo" href="./index.html">
-          <img
-            class="logo__image"
-            width="220"
-            height="47"
-            src="../src/components/base/images/logo.svg"
-            alt="Логотип"
-          />
-        </a>
-        <form class="header__form">
-          <input class="header__search" type="search" placeholder="Поиск:" />
-        </form>
-        <a class="header__item header__bookmarks">Закладки: 0</a>
-        <a class="header__item header__basket header__item--active">Корзина: 0</a>
-        <a class="header__item header__checkout">Оформить заказ</a>
+        <div class="header__top-inner desktop-center">
+          <a class="header__logo logo">
+            <svg class="logo__image" width="220" height="42">
+              <title>Логотип</title>
+              <use href="#logo" />
+            </svg>
+          </a>
+          <form class="header__form">
+            <input
+              class="header__search"
+              id="search-id"
+              type="search"
+              placeholder="Поиск:"
+            />
+            <label class="header__label" for="search-id"></label>
+          </form>
+          <a class="header__item header__item--bookmarks">
+            Закладки: 0
+          </a>
+          <a class="header__item header__item--basket">
+            Корзина: 0
+          </a>
+          <a class="header__checkout">Оформить заказ</a>
+        </div>
       </div>
-      <div class="header__middle-wrapper">
+      <div class="header__middle-wrapper desktop-center">
         <p class="header__text">
-          Интернет-магазин строительных материалов и инструментов для ремонта
+          Интернет-магазин<br />
+          строительных материалов<br />
+          и инструментов для ремонта
         </p>
         <div class="header__info-wrapper">
           <a class="header__phone" href="tel:+7(812)555-05-55"
@@ -39,23 +75,25 @@
         </div>
         <ul class="header__user-list user-list list-style-reset">
           <li class="user-list__item">
-            <a class="user-list__link" href="#">Войти</a>
+            <a class="user-list__link user-list__link--sign-in" href="#">
+              Войти
+            </a>
           </li>
           <li class="user-list__item">
             <a class="user-list__link" href="#">Регистрация</a>
           </li>
         </ul>
       </div>
-      <nav class="header__navigation navigation">
+      <nav class="header__navigation desktop-center navigation">
         <ul class="navigation__list list-style-reset">
           <li class="navigation__item">
-            <a class="navigation__link" href="./index.html">Главная</a>
+            <a class="navigation__link">Главная</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Компания</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Каталог</a>
+            <a class="navigation__link" href="./catalog.html">Каталог</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Новости</a>
@@ -432,112 +470,123 @@
       </article>
     </main>
     <footer class="body__footer footer">
-      <div class="footer__top-wrapper">
-        <a class="footer__logo logo" href="./index.html">
-          <img
-            class="logo__image"
-            width="220"
-            height="67"
-            src="../src/components/base/images/logo.svg"
-            alt="Логотип"
-          />
-        </a>
-        <div class="footer__info-wrapper">
-          <p class="footer__address">
-            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-          </p>
-          <a class="footer__phone" href="tel:+7(812)555-05-55"
-            >+7 (812) 555-05-55</a
-          >
+      <div class="footer__top-wrapper desktop-center">
+        <div class="footer__logo-wrapper">
+          <a class="footer__logo logo">
+            <svg
+              class="logo__image logo__image--footer"
+              width="220"
+              height="60"
+            >
+              <title>Логотип</title>
+              <use href="#logo--footer" />
+            </svg>
+          </a>
+          <div class="footer__info-wrapper">
+            <p class="footer__address">
+              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            </p>
+            <a class="footer__phone" href="tel:+7(812)555-05-55"
+              >+7 (812) 555-05-55</a
+            >
+          </div>
         </div>
-        <ul class="footer__navigation-list list-style-reset">
-          <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Компания</a>
-          </li>
-          <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Новости</a>
-          </li>
-          <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Каталог</a>
-          </li>
-          <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Доставка</a>
-          </li>
-          <li class="footer__navigation-item">
-            <a class="footer__navigation-link" href="#">Контакты</a>
-          </li>
-          <li class="footer__navigation-item">
-            <a
-              class="footer__navigation-link footer__navigation-link--tan"
-              href="#"
-            >
-              Материалы
-            </a>
-          </li>
-          <li class="footer__navigation-item">
-            <a
-              class="footer__navigation-link footer__navigation-link--tan"
-              href="#"
-            >
-              Техника
-            </a>
-          </li>
-          <li class="footer__navigation-item">
-            <a
-              class="footer__navigation-link footer__navigation-link--tan"
-              href="#"
-            >
-              Инструмент
-            </a>
-          </li>
-          <li class="footer__navigation-item">
-            <a
-              class="footer__navigation-link footer__navigation-link--tan"
-              href="#"
-            >
-              Спецпредложения
-            </a>
-          </li>
-        </ul>
+        <div class="footer__lists-wrapper">
+          <ul class="footer__navigation-list list-style-reset">
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="#">Компания</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="#">Новости</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="#">Каталог</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="#">Доставка</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a class="footer__navigation-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul
+            class="footer__navigation-list footer__navigation-list--tan list-style-reset"
+          >
+            <li class="footer__navigation-item">
+              <a
+                class="footer__navigation-link footer__navigation-link--tan"
+                href="#"
+              >
+                Материалы
+              </a>
+            </li>
+            <li class="footer__navigation-item">
+              <a
+                class="footer__navigation-link footer__navigation-link--tan"
+                href="#"
+              >
+                Техника
+              </a>
+            </li>
+            <li class="footer__navigation-item">
+              <a
+                class="footer__navigation-link footer__navigation-link--tan"
+                href="#"
+              >
+                Инструмент
+              </a>
+            </li>
+            <li class="footer__navigation-item">
+              <a
+                class="footer__navigation-link footer__navigation-link--tan"
+                href="#"
+              >
+                Спецпредложения
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="footer__bottom-wrapper">
-        <p class="footer__text">
-          © 2010–2017 Компания «Техномарт» Все права защищены
-        </p>
-        <ul class="footer__socials socials list-style-reset">
-          <li class="socials__item">
-            <a class="socials__link" href="#">
-              <span class="visually-hidden">Вконтакте</span>
-            </a>
-          </li>
-          <li class="socials__item">
-            <a class="socials__link" href="#">
-              <span class="visually-hidden">Facebook</span>
-            </a>
-          </li>
-          <li class="socials__item">
-            <a class="socials__link" href="#">
-              <span class="visually-hidden">Instagramm</span>
-            </a>
-          </li>
-        </ul>
-        <div>
-          <p>
-            Обратная связь:
-            <a class="footer__link" href="mailto:mail@htmlacademy.ru">
-              mail@htmlacademy.ru
-            </a>
+        <div class="footer__bottom-inner desktop-center">
+          <p class="footer__text footer__text--copyright">
+            © 2010–2017 Компания «Техномарт» Все права защищены
           </p>
-          <p>
-            Разработано —
-            <a
-              class="footer__link"
-              href="https://htmlacademy.ru"
-              target="blank"
-            >
-              htmlacademy.ru
-            </a>
-          </p>
+          <ul class="footer__socials socials list-style-reset">
+            <li>
+              <a class="socials__link socials__link--vk" href="#">
+                <span class="visually-hidden">Вконтакте</span>
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--fb" href="#">
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--insta" href="#">
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+          </ul>
+          <div class="footer__feedback-wrapper">
+            <p class="footer__text footer__text">
+              Обратная связь:
+              <a class="footer__link" href="mailto:mail@htmlacademy.ru">
+                mail@htmlacademy.ru
+              </a>
+            </p>
+            <p class="footer__text footer__text--designer">
+              Разработано —
+              <a
+                class="footer__link"
+                href="https://htmlacademy.ru"
+                target="blank"
+              >
+                htmlacademy.ru
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
