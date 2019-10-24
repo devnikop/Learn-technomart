@@ -20,7 +20,7 @@
   box-shadow: 0 10px 25px 0 rgb(41 52 73 / 50%);
 }
 
-.card::after {
+.card--new::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -193,8 +193,10 @@
 .card__button--favorites:hover,
 .card__button--favorites:focus {
   border: 3px solid #32425c;
+  background-color: #ffffff;
 }
 
 .card__button--favorites:active {
   filter: opacity(30%);
+  background-color: #ffffff;
 }

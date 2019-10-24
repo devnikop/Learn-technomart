@@ -5,6 +5,10 @@
   background-color: #f3f7f8;
 }
 
+.header--inner {
+  margin-bottom: 0;
+}
+
 .header__top-wrapper {
   margin-bottom: 45px;
 

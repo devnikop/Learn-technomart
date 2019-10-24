@@ -39,7 +39,7 @@
 .subtitle-catalog {
   margin: 0;
 
-  font-family: var(--font-family-main);
+  font-family: var(--font-family-extra);
   font-weight: var(--font-regular);
   font-size: 13px;
   line-height: 18px;
