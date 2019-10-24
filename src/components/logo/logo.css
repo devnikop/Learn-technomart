@@ -20,3 +20,7 @@
 
   box-shadow: 0 5px 0 0 #8e1e26;
 }
+
+.logo__image--footer {
+  height: 60px;
+}
