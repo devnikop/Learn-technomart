@@ -25,6 +25,10 @@
 
   background-color: #32425c;
   border-bottom: 5px solid #293449;
+
+  transition-property: color, background-color, border;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .navigation__link:hover,

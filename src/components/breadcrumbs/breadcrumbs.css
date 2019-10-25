@@ -21,6 +21,10 @@
   line-height: 18px;
   text-transform: uppercase;
   color: var(--color-text);
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .breadcrumbs__link:hover,

@@ -69,6 +69,10 @@
   margin-left: 2px;
 
   background-color: rgb(0 0 0 / 10%);
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .tile__link:hover,

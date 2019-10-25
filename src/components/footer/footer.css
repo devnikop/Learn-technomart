@@ -61,6 +61,10 @@
   font-size: 18px;
   line-height: 24px;
   color: var(--color-text-white);
+
+  transition-property: text-decoration, filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .footer__navigation-link:hover,
@@ -117,6 +121,10 @@
   margin: 0;
 
   color: #ffd180;
+
+  transition-property: text-decoration, color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .footer__link:hover,

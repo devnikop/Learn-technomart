@@ -14,6 +14,10 @@
   background-color: #212a3a;
   background-repeat: no-repeat;
   background-position: center;
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .socials__link:hover,

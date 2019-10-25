@@ -25,6 +25,10 @@
   color: var(--color-text);
 
   background-color: #ffffff;
+
+  transition-property: color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .user-list__link:hover,
@@ -34,6 +38,12 @@
 
 .user-list__link:active {
   color: rgb(0 0 0 / 30%);
+}
+
+.user-list__link::before {
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .user-list__link--sign-in {

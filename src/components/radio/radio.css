@@ -34,6 +34,10 @@
   border-radius: 50%;
 
   content: "";
+
+  transition-property: border, background-image;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .radio__input:checked + .radio__label::before {

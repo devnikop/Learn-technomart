@@ -13,6 +13,10 @@
   font-family: var(--font-family-extra);
 
   overflow: hidden;
+
+  transition-property: box-shadow;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card:hover,
@@ -127,17 +131,23 @@
   right: 0;
   left: 0;
 
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 180px;
   padding: 0 40px;
 
   background-color: #ffffff;
+
+  filter: opacity(0);
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card:hover .card__wrapper {
-  display: flex;
+  filter: opacity(100%);
 }
 
 .card__button {
@@ -150,6 +160,10 @@
 
   background-color: #63a63e;
   box-shadow: inset 0 -3px 0 0 #367315;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card__button--buy:hover,
@@ -176,6 +190,10 @@
   filter: opacity(30%);
 
   content: "";
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card__button--buy:hover::before,
@@ -188,6 +206,10 @@
 
   border: 3px solid #63a63e;
   background-color: #ffffff;
+
+  transition-property: border, filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .card__button--favorites:hover,

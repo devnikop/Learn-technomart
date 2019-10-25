@@ -34,6 +34,10 @@
   border-bottom: 1px dotted #ee3643;
 
   filter: opacity(30%);
+
+  transition-property: border, filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .sort__link:hover,
@@ -74,6 +78,10 @@
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .sort__sublink:hover,

@@ -34,6 +34,10 @@
   box-sizing: border-box;
 
   border: 1px solid #eaeaea;
+
+  transition-property: box-shadow, filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .manufacturers__link-company:hover,

@@ -60,6 +60,10 @@
   box-shadow: inset 0 1px 0 0 #405069, 0 1px 0 0 #293449;
 
   cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .services__slider-item:hover,

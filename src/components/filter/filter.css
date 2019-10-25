@@ -90,6 +90,12 @@
 
   border: 1px solid #e5e5e5;
   border-radius: var(--border-radius-type-1);
+
+  cursor: pointer;
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .filter__submit:hover,

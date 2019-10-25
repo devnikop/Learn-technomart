@@ -41,6 +41,10 @@
   left: 0;
 
   background-color: #293449;
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .header__form:hover .header__label {
@@ -64,6 +68,10 @@
   filter: opacity(30%);
 
   content: "";
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .header__form:hover .header__label::before,
@@ -114,6 +122,10 @@
   font-size: 17px;
   line-height: 18px;
   color: var(--color-text-white);
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .header__item:hover,
@@ -135,6 +147,10 @@
   background-position: center;
   filter: opacity(30%);
   content: "";
+
+  transition-property: filter;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .header__item--bookmarks::before {

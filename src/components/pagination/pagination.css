@@ -27,6 +27,10 @@
 
   border: 1px solid #e5e5e5;
   border-radius: var(--border-radius-type-1);
+
+  transition-property: border;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .pagination__link:hover,

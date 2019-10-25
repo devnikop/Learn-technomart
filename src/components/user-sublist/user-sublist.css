@@ -22,6 +22,10 @@
   color: #32425c;
 
   cursor: pointer;
+
+  transition-property: color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function)
 }
 
 .user-sublist__link:hover,

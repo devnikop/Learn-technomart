@@ -12,6 +12,10 @@
 
   text-transform: uppercase;
   background-color: var(--background-red);
+
+  transition-property: background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-function);
 }
 
 .button:hover,
