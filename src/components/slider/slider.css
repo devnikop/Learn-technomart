@@ -76,9 +76,11 @@
 
   z-index: 1;
 
+  cursor: pointer;
+
   transition-property: background-color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .slider__button:hover,
