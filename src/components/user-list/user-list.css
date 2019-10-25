@@ -1,12 +1,24 @@
 .user-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+}
+
+.user-list--autorized {
+  justify-content: space-between;
+
+  background-color: #ffffff;
+}
+
+.user-list__item--autorized {
+  display: flex;
 }
 
 .user-list__link {
   display: flex;
   align-items: center;
   padding: 14px 24px 12px;
+  box-sizing: border-box;
 
   font-size: 21px;
   line-height: 21px;
@@ -27,11 +39,11 @@
 .user-list__link--sign-in {
   margin-right: 10px;
   padding-left: 14px;
-  box-sizing: border-box;
 }
 
 .user-list__link--sign-in::before {
   display: block;
+  flex-shrink: 0;
 
   width: 20px;
   height: 17px;
@@ -50,5 +62,61 @@
 }
 
 .user-list__link--sign-in:active::before {
+  background-color: #c5c5c5;
+}
+
+.user-list__link--name {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.user-list__link--name::before {
+  display: block;
+  flex-shrink: 0;
+
+  width: 20px;
+  height: 18px;
+  margin-right: 14px;
+
+  background-color: #c5c5c5;
+  -webkit-mask-image: url("./assets/icon-user.svg");
+  mask-image: url("./assets/icon-user.svg");
+
+  content: "";
+}
+
+.user-list__link--name:hover::before,
+.user-list__link--name:focus::before {
+  background-color: #32425c;
+}
+
+.user-list__link--name:active::before {
+  background-color: #c5c5c5;
+}
+
+.user-list__link--exit {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.user-list__link--exit::before {
+  display: block;
+
+  width: 20px;
+  height: 17px;
+
+  background-color: #c5c5c5;
+  -webkit-mask-image: url("./assets/icon-login.svg");
+  mask-image: url("./assets/icon-login.svg");
+
+  content: "";
+}
+
+.user-list__link--exit:hover::before,
+.user-list__link--exit:focus::before {
+  background-color: #32425c;
+}
+
+.user-list__link--exit:active::before {
   background-color: #c5c5c5;
 }

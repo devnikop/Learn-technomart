@@ -73,15 +73,33 @@
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
           </p>
         </div>
-        <ul class="header__user-list user-list list-style-reset">
-          <li class="user-list__item">
-            <a class="user-list__link user-list__link--sign-in" href="#">
-              Войти
+        <ul
+          class="header__user-list user-list user-list--autorized list-style-reset"
+        >
+          <li class="user-list__item user-list__item--autorized">
+            <a class="user-list__link user-list__link--name" href="#">
+              Равшан Джамшутович
             </a>
           </li>
-          <li class="user-list__item">
-            <a class="user-list__link" href="#">Регистрация</a>
+          <li class="user-list__item user-list__item--autorized">
+            <a class="user-list__link user-list__link--exit" href="#">
+              <span class="visually-hidden">
+                Выйти из аккаунта
+              </span>
+            </a>
           </li>
+          <ul class="user-sublist list-style-reset">
+            <li class="user-sublist__item">
+              <a class="user-sublist__link">
+                Мои заказы
+              </a>
+            </li>
+            <li class="user-sublist__item">
+              <a class="user-sublist__link user-sublist__link--icon">
+                Личный кабинет
+              </a>
+            </li>
+          </ul>
         </ul>
       </div>
       <nav class="header__navigation desktop-center navigation">
