@@ -1,8 +1,44 @@
 .range {
+  padding: 38px 20px;
+
+  background-color: #f7f3ec;
+  border-radius: var(--border-radius-type-1);
 }
 
 .range__line {
+  position: relative;
+
+  height: 2px;
+
+  background-color: #d7dcde;
+}
+
+.range__line::before {
+  display: block;
+  width: 80%;
+  height: 100%;
+
+  background-color: #00ca74;
+
+  content: "";
 }
 
 .range__button {
+  position: absolute;
+  top: -10px;
+
+  width: 20px;
+  height: 23px;
+
+  background-image: url(./assets/filter-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.range__button--min {
+  left: -10px;
+}
+
+.range__button--max {
+  right: 30px;
 }

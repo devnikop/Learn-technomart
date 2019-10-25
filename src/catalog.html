@@ -144,21 +144,21 @@
             method="POST"
             action="https://echo.htmlacademy.ru"
           >
-            <fieldset class="filter__group">
+            <fieldset class="filter__group filter__group--price">
               <legend class="filter__group-title">Цена:</legend>
-              <div class="filter__price">
-                <div class="filter__range range">
-                  <div class="range__line">
-                    <button
-                      class="range__button button-reset"
-                      type="button"
-                    ></button>
-                    <button
-                      class="range__button button-reset"
-                      type="button"
-                    ></button>
-                  </div>
+              <div class="filter__range range">
+                <div class="range__line">
+                  <button
+                    class="range__button range__button--min button-reset"
+                    type="button"
+                  ></button>
+                  <button
+                    class="range__button range__button--max button-reset"
+                    type="button"
+                  ></button>
                 </div>
+              </div>
+              <div class="filter__price-wrapper">
                 <label class="visually-hidden" for="price-min">
                   Минимальная цена
                 </label>
@@ -167,6 +167,7 @@
                   id="price-min"
                   type="number"
                   min="0"
+                  value="0"
                 />
                 <label class="visually-hidden" for="price-max">
                   Максимальная цена
@@ -176,15 +177,16 @@
                   id="price-max"
                   type="number"
                   min="0"
+                  value="30000"
                 />
               </div>
             </fieldset>
-            <fieldset class="filter__group">
+            <fieldset class="filter__group filter__group--manufacturers">
               <legend class="filter__group-title">Производители:</legend>
               <ul class="filter__list list-style-reset">
                 <li class="filter__item checkbox">
                   <input
-                    class="visually-hidden"
+                    class="checkbox__input visually-hidden"
                     id="checkbox-bosch"
                     type="checkbox"
                     name="bosch"
@@ -196,7 +198,7 @@
                 </li>
                 <li class="filter__item checkbox">
                   <input
-                    class="visually-hidden"
+                    class="checkbox__input visually-hidden"
                     id="checkbox-interskol"
                     type="checkbox"
                     name="interskol"
@@ -207,7 +209,7 @@
                 </li>
                 <li class="filter__item checkbox">
                   <input
-                    class="visually-hidden"
+                    class="checkbox__input visually-hidden"
                     id="checkbox-makita"
                     type="checkbox"
                     name="makita"
@@ -219,7 +221,7 @@
                 </li>
                 <li class="filter__item checkbox">
                   <input
-                    class="visually-hidden"
+                    class="checkbox__input visually-hidden"
                     id="checkbox-dewalt"
                     type="checkbox"
                     name="dewalt"
@@ -230,7 +232,7 @@
                 </li>
                 <li class="filter__item checkbox">
                   <input
-                    class="visually-hidden"
+                    class="checkbox__input visually-hidden"
                     id="checkbox-hitachi"
                     type="checkbox"
                     name="hitachi"
@@ -241,12 +243,12 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="filter__group">
+            <fieldset class="filter__group filter__group--power">
               <legend class="filter__group-title">Питание:</legend>
               <ul class="filter__list list-style-reset">
                 <li class="filter__item radio">
                   <input
-                    class="visually-hidden"
+                    class="radio__input visually-hidden"
                     id="radio-battery"
                     type="radio"
                     name="power"
@@ -259,7 +261,7 @@
                 </li>
                 <li class="filter__item radio">
                   <input
-                    class="visually-hidden"
+                    class="radio__input visually-hidden"
                     id="radio-network"
                     type="radio"
                     name="power"

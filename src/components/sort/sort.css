@@ -5,6 +5,7 @@
   padding: 10px 15px 10px;
 
   background-color: #f7f3ec;
+  border-radius: var(--border-radius-type-1);
 }
 
 .sort__title {
