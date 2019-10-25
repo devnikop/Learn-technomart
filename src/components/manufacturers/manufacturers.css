@@ -19,10 +19,9 @@
 }
 
 .manufacturers__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -20px;
-  margin-left: -20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 220px);
+  gap: 20px;
 }
 
 .manufacturers__link-company {
@@ -31,8 +30,7 @@
   justify-content: center;
   width: 220px;
   height: 145px;
-  margin-top: 20px;
-  margin-left: 20px;
+
   box-sizing: border-box;
 
   border: 1px solid #eaeaea;

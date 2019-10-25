@@ -2,13 +2,10 @@
 }
 
 .cards__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -20px;
-  margin-left: -20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 220px);
+  gap: 20px;
 }
 
 .cards__item {
-  margin-top: 20px;
-  margin-left: 20px;
 }
