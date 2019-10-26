@@ -1,12 +1,7 @@
 .header {
-  margin-bottom: 60px;
   padding-bottom: 60px;
 
   background-color: #f3f7f8;
-}
-
-.header--inner {
-  margin-bottom: 0;
 }
 
 .header__top-wrapper {
@@ -44,7 +39,7 @@
 
   transition-property: background-color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .header__form:hover .header__label {
@@ -71,7 +66,7 @@
 
   transition-property: filter;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .header__form:hover .header__label::before,
@@ -125,7 +120,7 @@
 
   transition-property: background-color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .header__item:hover,
@@ -150,7 +145,7 @@
 
   transition-property: filter;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .header__item--bookmarks::before {
@@ -208,6 +203,7 @@
 
 .header__text {
   margin: 0;
+  padding-top: 4px;
   padding-left: 50px;
 
   font-style: italic;

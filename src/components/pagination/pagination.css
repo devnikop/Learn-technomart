@@ -30,7 +30,7 @@
 
   transition-property: border;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .pagination__link:hover,
@@ -40,6 +40,10 @@
 
 .pagination__link:active {
   border: 1px solid #ee3643;
+}
+
+.pagination__link--text {
+  padding: 10px 30px 11px;
 }
 
 .pagination__link--current,

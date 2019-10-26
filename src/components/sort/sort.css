@@ -1,8 +1,8 @@
 .sort {
   display: grid;
-  grid-template-columns: auto 380px 60px;
-  column-gap: 20px;
-  padding: 10px 15px 10px;
+  grid-template-columns: auto 360px 55px;
+  column-gap: 35px;
+  padding: 6px 10px 10px 20px;
 
   background-color: #f7f3ec;
   border-radius: var(--border-radius-type-1);
@@ -37,7 +37,7 @@
 
   transition-property: border, filter;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .sort__link:hover,
@@ -81,7 +81,7 @@
 
   transition-property: background-color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .sort__sublink:hover,

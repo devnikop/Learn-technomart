@@ -116,8 +116,8 @@
   height: 17px;
 
   background-color: #c5c5c5;
-  -webkit-mask-image: url("./assets/icon-login.svg");
-  mask-image: url("./assets/icon-login.svg");
+  -webkit-mask-image: url("./assets/icon-logout.svg");
+  mask-image: url("./assets/icon-logout.svg");
 
   content: "";
 }

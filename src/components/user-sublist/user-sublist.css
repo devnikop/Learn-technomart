@@ -1,7 +1,7 @@
 .user-sublist {
   display: flex;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 4px;
 
   background-color: #f1f5f7;
 }
@@ -14,7 +14,7 @@
 
   display: block;
   margin-right: 15px;
-  padding-left: 15px;
+  padding-left: 18px;
 
   font-size: 16px;
   line-height: 18px;
@@ -25,7 +25,7 @@
 
   transition-property: color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .user-sublist__link:hover,

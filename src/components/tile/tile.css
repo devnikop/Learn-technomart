@@ -1,5 +1,5 @@
 .tile {
-  padding: 25px 145px 20px 20px;
+  padding: 20px 145px 20px 20px;
 
   background-color: #ffbf47;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   color: var(--color-text-white);
 
   background-color: #ff5257;
-  transform: translate(30px, 6px) rotate(45deg);
+  transform: translate(26px, 5px) rotate(45deg);
 
   content: "new";
 }
@@ -32,6 +32,7 @@
 .tile--materials {
   background-color: #ffbf47;
   background-image: url("./assets/icon-materials.svg");
+  background-position: center right 45px;
 }
 
 .tile--tool {
@@ -47,6 +48,7 @@
 .tile--discount {
   background-color: #8ed78f;
   background-image: url("./assets/icon-discount.svg");
+  background-position: center right 45px;
 }
 
 .tile--delivery {
@@ -56,7 +58,7 @@
 
 .tile__title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 
   font-weight: var(--font-bold);
   font-size: 24px;
@@ -72,7 +74,7 @@
 
   transition-property: background-color;
   transition-duration: var(--transition-time);
-  transition-timing-function: var(--transition-function)
+  transition-timing-function: var(--transition-function);
 }
 
 .tile__link:hover,

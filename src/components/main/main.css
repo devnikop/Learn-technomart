@@ -15,7 +15,7 @@
 }
 
 .main__tiles {
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
 .main__goods {
@@ -38,11 +38,12 @@
   grid-column: 1 / -1;
   margin: 0;
   margin-bottom: 20px;
-  padding: 28px 30px 30px;
+  padding: 30px 28px;
 
   font-size: 30px;
   line-height: 30px;
   color: var(--color-title);
+  text-transform: uppercase;
 
   background-color: #f2f6f8;
 }
@@ -57,7 +58,7 @@
 }
 
 .main__sort {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .main__cards {
