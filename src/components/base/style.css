@@ -37,5 +37,8 @@
 @import "../socials/socials.css";
 @import "../footer/footer.css";
 
+/* modal */
+@import "../modal/modal.css";
+
 /* body layout */
 @import "../body/body.css";

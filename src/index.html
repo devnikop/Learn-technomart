@@ -151,16 +151,26 @@
             <li class="slider__status-item">
               <button
                 class="slider__status-button slider__status-button--current button-reset"
+                type="button"
               ></button>
             </li>
             <li class="slider__status-item">
-              <button class="slider__status-button button-reset"></button>
+              <button
+                class="slider__status-button button-reset"
+                type="button"
+              ></button>
             </li>
           </ul>
-          <button class="slider__button slider__button--prev button-reset">
+          <button
+            class="slider__button slider__button--prev button-reset"
+            type="button"
+          >
             <span class="visually-hidden">Предыдущий</span>
           </button>
-          <button class="slider__button slider__button--next button-reset">
+          <button
+            class="slider__button slider__button--next button-reset"
+            type="button"
+          >
             <span class="visually-hidden">Следующий</span>
           </button>
         </section>
@@ -360,17 +370,24 @@
               <li class="services__slider-item ">
                 <button
                   class="services__slider-button services__slider-button--current button-reset"
+                  type="button"
                 >
                   Доставка
                 </button>
               </li>
               <li class="services__slider-item">
-                <button class="services__slider-button button-reset">
+                <button
+                  class="services__slider-button button-reset"
+                  type="button"
+                >
                   Гарантия
                 </button>
               </li>
               <li class="services__slider-item">
-                <button class="services__slider-button button-reset">
+                <button
+                  class="services__slider-button button-reset"
+                  type="button"
+                >
                   Кредит
                 </button>
               </li>
@@ -572,6 +589,49 @@
         </div>
       </div>
     </footer>
+
+    <modal class="modal modal--write-us">
+      <section>
+        <h2 class="visually-hidden">Форма обратной связи</h2>
+        <form class="modal__form">
+          <div class="modal__columns">
+            <label class="modal__label">
+              Ваше имя:
+              <input class="modal__input" placeholder="Имя Фамилия" />
+            </label>
+            <label class="modal__label">
+              Ваш e-mail
+              <input class="modal__input" placeholder="email@example.com" />
+            </label>
+          </div>
+
+          <label class="modal__label"
+            >Текст письма:
+            <textarea
+              class="modal__input modal__input--textarea"
+              placeholder="В свободной форме"
+              rows="4"
+            ></textarea>
+          </label>
+
+          <button class="modal__send button button-reset" type="submit">
+            Отправить
+          </button>
+        </form>
+        <button class="modal__close button-reset" type="button">
+          <span class="visually-hidden">Закрыть форму</span>
+        </button>
+      </section>
+    </modal>
+
+    <modal class="modal modal--map">
+      <section>
+        <h2 class="visually-hidden">Карта</h2>
+        <button class="modal__close button-reset" type="button">
+          <span class="visually-hidden">Закрыть форму</span>
+        </button>
+      </section>
+    </modal>
 
     <script src="../src/components/base/index.js"></script>
   </body>
