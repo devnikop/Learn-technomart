@@ -57,6 +57,9 @@
 
   const cartBuyElements = document.querySelectorAll(".card__button--buy");
   const modalCartlement = document.querySelector(".modal--cart");
+  if (!modalCartlement) {
+    return null;
+  }
   const modalCartCloseElement = modalCartlement.querySelector(".modal__close");
   const cartCheckoutElement = modalCartlement.querySelector(
     ".modal__button--checkout"
