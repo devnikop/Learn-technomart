@@ -1,1 +1,9 @@
-Just html&css project for skill-trainning 
+# Technomart
+
+Project for mastering base html&css
+
+## Built With
+
+- Html
+- Css
+- Vanilla js
